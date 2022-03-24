@@ -1,0 +1,12 @@
+section {
+    padding: 1% 11%;
+}
+
+.prodotto {
+    display: inline-block;
+}
+
+.immagine {
+    width: 350px;
+    margin: 5px;
+}
