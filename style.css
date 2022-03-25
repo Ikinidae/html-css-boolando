@@ -1,16 +1,18 @@
-section {
-    padding: 1% 11%;
+body {
+    padding: 1% 3%;
+    justify-content:center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .prodotto {
-    display: inline-block;
-    text-align: center;
+    display: inline-block;    
     position: relative;
+    cursor: pointer;
 }
 
-.immagine {
+.prodotto .immagine {
     width: 350px;
-    margin: 5px;
+    margin: 5px;    
 }
 
 .prodotto .cuore {
@@ -26,20 +28,70 @@ section {
     background-color: red;
     color: white;
     position: absolute;
-    bottom: 20px;
-    left: 0;
+    bottom: 100px;
+    left: 5px;
     padding: 5px;
-    margin-left: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .prodotto .sostenibilità {
     background-color: green;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     position: absolute;
-    bottom: 20px;
-    left: 50px;
+    bottom: 100px;
+    left: 47px;
     padding: 5px;
-    
+}
+
+.prodotto .sostenibilità_sinistra {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+    padding: 5px;
+}
+
+.prodotto .hover_primo_prodotto:hover {
+    content: url(img/1b.webp);
+}
+
+.prodotto .hover_secondo_prodotto:hover {
+    content: url(img/2b.webp);
+}
+
+.prodotto .hover_terzo_prodotto:hover {
+    content: url(img/3b.webp);
+}
+
+.prodotto .hover_quarto_prodotto:hover {
+    content: url(img/4b.webp);
+}
+
+.prodotto .hover_quinto_prodotto:hover {
+    content: url(img/5b.webp);
+}
+
+.prodotto .hover_sesto_prodotto:hover {
+    content: url(img/6b.webp);
+}
+
+.prodotto .descrizione{
+    margin-left: 5px;
+}
+
+.descrizione p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.descrizione h4 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.prodotto .prezzo {
+    margin-bottom: 30px;
 }
